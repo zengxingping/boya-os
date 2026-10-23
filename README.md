@@ -37,24 +37,25 @@ Every tool is annotated `readOnlyHint: true`, `destructiveHint: false`, and `ope
 
 ## Install
 
-### Claude apps and Claude Code directory
+### Claude apps and Claude Code
 
 1. Open the Claude connectors or plugin directory.
 2. Find **Boya OS** and select it.
 3. Approve the OAuth consent screen for your Boya OS account.
 
-### Claude Code from this repository
-
-```
-/plugin install boya-os --marketplace zengxingping/boya-os
-```
-
-Then run any Boya OS request. Claude prompts you to authorize the MCP server on first use.
+Claude prompts you to authorize the MCP server on first use.
 
 ### Claude Code as a custom connector
 
 ```
 claude mcp add --transport http boya-os https://mcp.boyaos.com/mcp
+```
+
+### Load the plugin from a local clone
+
+```
+git clone https://github.com/zengxingping/boya-os
+claude --plugin-dir ./boya-os
 ```
 
 ## Authentication

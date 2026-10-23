@@ -9,6 +9,10 @@ Connect Claude to your own Boya OS recordings. This repository contains a read-o
 - Access: read-only, limited to the signed-in Boya OS account
 - Plugin name: `boya-os`
 
+## Eligibility
+
+You must be at least 18 years old to use this connector.
+
 ## What you can do
 
 - List recordings by date, folder, or duration.
@@ -93,10 +97,10 @@ The connector does not:
 - Read Claude memory, chat history, summaries, or files you upload to Claude.
 - Receive Claude conversation text beyond the tool arguments needed for your request.
 - Use data for model training.
-- Sell data or share it with third parties, except infrastructure providers that host Boya OS under contract.
+- Sell data or send it to third-party services. Hosting infrastructure processes data only on Boya OS's behalf.
 - Record, edit, delete, or generate transcripts, summaries, mind maps, or to-dos.
 
-The server keeps an operational audit record for each tool call. Each record contains the tool name, result code, timing, region, OAuth client ID, a SHA-256 digest of the arguments, and a truncated plaintext copy of the arguments for support and abuse investigation. It does not store returned transcripts, summaries, mind maps, or audio. Audit records are retained for security and support purposes; contact support to request deletion.
+The server keeps an operational audit record for each tool call. Each record contains the tool name, result code, timing, region, OAuth client ID, a SHA-256 digest of the arguments, and a truncated plaintext copy of the arguments for support and abuse investigation. It does not store returned transcripts, summaries, mind maps, or audio. Audit records are retained for 7 days and then deleted.
 
 Audio is off by default. When you explicitly request audio, the server returns a pre-signed playback link valid for 10 minutes. Request the recording again after it expires.
 
@@ -141,6 +145,7 @@ README.md                    This documentation
 ## Support
 
 - Support: https://www.boyamic.com/support
+- Support email: support@boyamic.com
 - Website: https://www.boyamic.com/
 - Privacy policy: https://ai.boyaos.com/policies/BOYANotraDataSecurity&PrivacyPolicyvEN.html
 - Terms of service: https://ai.boyaos.com/policies/BOYANotraTermofServiceEN.html

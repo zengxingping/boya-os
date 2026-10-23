@@ -1,0 +1,26 @@
+{
+  "name": "boya-os",
+  "displayName": "Boya OS",
+  "version": "1.0.0",
+  "description": "Your recordings & AI summaries",
+  "author": {
+    "name": "AIVoicerecorder25",
+    "url": "https://www.boyamic.com/"
+  },
+  "homepage": "https://www.boyamic.com/",
+  "repository": "https://github.com/zengxingping/boya-os",
+  "license": "Proprietary",
+  "keywords": [
+    "recordings",
+    "transcription",
+    "meeting-notes",
+    "summaries",
+    "action-items",
+    "productivity"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/zengxingping/boya-os#readme",
+  "supportUrl": "https://www.boyamic.com/support",
+  "privacyPolicyUrl": "https://ai.boyaos.com/policies/BOYANotraDataSecurity&PrivacyPolicyvEN.html",
+  "termsOfServiceUrl": "https://ai.boyaos.com/policies/BOYANotraTermofServiceEN.html"
+}

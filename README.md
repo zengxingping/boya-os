@@ -4,7 +4,7 @@
 
 Connect Claude to your own Boya OS recordings. This repository contains a read-only remote MCP server integration and a skill that teaches Claude how to use its nine tools well.
 
-- Remote MCP server: `https://mcp.boyaos.com/mcp`
+- Remote MCP server: `https://mcp.boyaos.com`
 - Authentication: OAuth 2.0 with dynamic client registration
 - Access: read-only, limited to the signed-in Boya OS account
 - Plugin name: `boya-os`
@@ -52,7 +52,7 @@ Claude prompts you to authorize the MCP server on first use.
 ### Claude Code as a custom connector
 
 ```
-claude mcp add --transport http boya-os https://mcp.boyaos.com/mcp
+claude mcp add --transport http boya-os https://mcp.boyaos.com
 ```
 
 ### Load the plugin from a local clone
@@ -84,7 +84,7 @@ The access token is bound to your Boya OS user and the read scope. Revoking the 
 
 The plugin contains no executables and runs no local code. It declares one remote MCP server plus Markdown skill instructions.
 
-When you use a tool, Claude sends your tool arguments and the OAuth access token to `https://mcp.boyaos.com/mcp`. The server reads matching data from your Boya OS account and returns it.
+When you use a tool, Claude sends your tool arguments and the OAuth access token to `https://mcp.boyaos.com`. The server reads matching data from your Boya OS account and returns it.
 
 The connector reads:
 

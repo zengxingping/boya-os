@@ -1,7 +1,7 @@
 {
   "name": "boya-os",
   "displayName": "Boya OS",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Your recordings & AI summaries",
   "author": {
     "name": "Boya OS",
@@ -18,9 +18,5 @@
     "action-items",
     "productivity"
   ],
-  "icon": "./assets/icon.png",
-  "documentationUrl": "https://github.com/zengxingping/boya-os#readme",
-  "supportUrl": "https://www.boyamic.com/support",
-  "privacyPolicyUrl": "https://ai.boyaos.com/policies/BOYANotraDataSecurity&PrivacyPolicyvEN.html",
-  "termsOfServiceUrl": "https://ai.boyaos.com/policies/BOYANotraTermofServiceEN.html"
+  "icon": "./assets/icon.png"
 }

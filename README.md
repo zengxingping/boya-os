@@ -1,7 +1,5 @@
 # Boya OS
 
-![Boya OS icon](assets/icon.png)
-
 Connect Claude to your own Boya OS recordings. This repository contains a read-only remote MCP server integration and a skill that teaches Claude how to use its nine tools well.
 
 - Remote MCP server: `https://mcp.boyaos.com`
